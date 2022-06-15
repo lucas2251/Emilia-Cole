@@ -1,6 +1,28 @@
-body{
+.home{
     background-image: url("../img/emilia-home.jpg");
     background-repeat:no-repeat;
     background-position: right 0;
-    background-size:75% ;
+    background-size:70% ;
+};
+#header{
+    background-color: aqua;
+}
+
+.home header{
+margin-left: 5%;
+}
+.home header nav ul li a{
+    color: #363636b2;
+    text-transform: uppercase;
+}
+
+.home main{
+margin-top: 190px;
+}
+.home main h2{
+    margin-bottom: 190px;
+    margin-left: 30px;
+}
+.home main h1{
+    font-size: 100px;
 }
